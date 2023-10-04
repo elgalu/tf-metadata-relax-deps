@@ -125,9 +125,9 @@ setup(
     ],
     namespace_packages=[],
     install_requires=[
-        'absl-py>=0.9,<2.0.0',
-        'googleapis-common-protos>=1.52.0,<2',
-        'protobuf>=3.20.3,<4.21',
+        'absl-py>=0.9',
+        'googleapis-common-protos>=1.52.0',
+        'protobuf>=3.20.3',
     ],
     python_requires='>=3.8,<4',
     packages=find_packages(),
